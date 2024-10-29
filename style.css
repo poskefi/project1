@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* Green navbar background color */
+.bg-green {
+    background-color: #28a745; /* Bootstrap green */
+}
+
+/* Navbar link styling */
+.nav-link {
+    font-weight: bold;
+    color: white !important;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40; /* Dark gray */
+    color: white;
+    padding: 10px 0;
+}
