@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DBZ Resort</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-green">
         <a class="navbar-brand" href="index.php">
             <img src="./img/logo.jpg" alt="Resort Logo" style="height: 40px;">
@@ -28,7 +27,6 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
     <div class="container mt-5 text-center">
         <h1>DBZ Resort</h1>
         <p>DBZ Resort offers a special lodging experience on the Connecticut Eastern Coast. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
@@ -47,7 +45,6 @@
         </p>
     </div>
 
-    <!-- Footer -->
     <footer class="bg-dark text-white text-center p-3 mt-5">
         <p>Copyright © 2024 Wonderful Resort</p>
         <p>email: info@wonderfulresort.com</p>
