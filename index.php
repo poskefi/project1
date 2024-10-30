@@ -46,7 +46,7 @@
     </div>
 
     <footer class="bg-dark text-white text-center p-3 mt-5">
-        <p>Copyright © 2024 Wonderful Resort</p>
+        <p>Copyright © 2024 DBZ Resort</p>
         <p>email: info@wonderfulresort.com</p>
     </footer>
 
