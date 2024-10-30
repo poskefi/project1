@@ -47,7 +47,7 @@
 
     <footer class="bg-dark text-white text-center p-3 mt-5">
         <p>Copyright © 2024 DBZ Resort</p>
-        <p>email: info@wonderfulresort.com</p>
+        <p>email: info@dbzresort.com</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
