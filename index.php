@@ -40,9 +40,9 @@
             <li>Guided hiking tours of the redwoods</li>
         </ul>
         <p>
-            Wonderful Resort<br>
+            DBZ Resort<br>
             One Normal Ave, Montclair<br>
-            New Jersey NJ 07043<br>
+            Connecticut 06516<br>
             973-655-4166
         </p>
     </div>
