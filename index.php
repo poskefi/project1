@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wonderful Resort</title>
+    <title>DBZ Resort</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
 </head>
@@ -30,8 +30,8 @@
 
     <!-- Main Content -->
     <div class="container mt-5 text-center">
-        <h1>Wonderful Resort</h1>
-        <p>Wonderful Resort offers a special lodging experience on the New Jersey Eastern Coast. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
+        <h1>DBZ Resort</h1>
+        <p>DBZ Resort offers a special lodging experience on the New Jersey Eastern Coast. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
         <ul class="list-unstyled">
             <li>Private yurts with decks overlooking the ocean</li>
             <li>Activities lodge with fireplace and gift shop</li>
