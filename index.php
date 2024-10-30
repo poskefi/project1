@@ -31,7 +31,7 @@
     <!-- Main Content -->
     <div class="container mt-5 text-center">
         <h1>DBZ Resort</h1>
-        <p>DBZ Resort offers a special lodging experience on the New Jersey Eastern Coast. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
+        <p>DBZ Resort offers a special lodging experience on the Connecticut Eastern Coast. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
         <ul class="list-unstyled">
             <li>Private yurts with decks overlooking the ocean</li>
             <li>Activities lodge with fireplace and gift shop</li>
