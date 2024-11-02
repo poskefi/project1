@@ -27,8 +27,24 @@
     </style>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-green">
+        <a class="navbar-brand" href="index.php">
+            <img src="./img/logo.jpg" alt="Resort Logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-left" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-white" href="index.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="yurts.php">Yurts</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="activities.php">Activities</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="reservation.php">Reservation</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="comments.php">Comments</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<?php include 'navbar.php'; ?>
 
 <div class="container mt-4">
     <h1 class="text-center">Activities</h1>
@@ -46,7 +62,7 @@
         <!-- Activity 2 -->
         <div class="col-12 col-md-6 mb-4">
             <div class="card">
-                <img src="path/to/pool.jpg" class="card-img-top activity-image" alt="Pool" onclick="showFullscreenImage(this)">
+                <img src="./img/goku.jpg" class="card-img-top activity-image" alt="Pool" onclick="showFullscreenImage(this)">
                 <div class="card-body">
                     <h5 class="card-title">Pool</h5>
                     <p class="card-text">Relax by the pool or take a refreshing swim.</p>
