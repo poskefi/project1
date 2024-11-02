@@ -22,7 +22,13 @@
             max-width: 90%;
             max-height: 90%;
         }
+        .activity-image{
+            width: 100%;
+            height: 300px;
+        }
     </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-green">
@@ -42,12 +48,9 @@
             </ul>
         </div>
     </nav>
-
-
 <div class="container mt-4">
     <h1 class="text-center">Activities</h1>
     <div class="row">
-        <!-- Activity 1 -->
         <div class="col-12 col-md-6 mb-4">
             <div class="card">
                 <img src="./img/top.jpg" class="card-img-top activity-image" alt="View of the Arena" onclick="showFullscreenImage(this)">
@@ -55,7 +58,6 @@
                 </div>
             </div>
         </div>
-        <!-- Activity 2 -->
         <div class="col-12 col-md-6 mb-4">
             <div class="card">
                 <img src="./img/goku.jpg" class="card-img-top activity-image" alt="View of Goku" onclick="showFullscreenImage(this)">
@@ -63,7 +65,6 @@
                 </div>
             </div>
         </div>
-        <!-- Activity 3-->
         <div class="col-12 col-md-6 mb-4">
             <div class="card">
                 <img src="./img/cell.jpg" class="card-img-top activity-image" alt="View of Cell" onclick="showFullscreenImage(this)">
@@ -71,7 +72,6 @@
                 </div>
             </div>
         </div>
-        <!-- Activity 4 -->
         <div class="col-12 col-md-6 mb-4">
             <div class="card">
                 <img src="./img/buu.jpg" class="card-img-top activity-image" alt="View of Buu" onclick="showFullscreenImage(this)">
@@ -83,17 +83,14 @@
     </div>
 </div>
 
-<!-- Fullscreen Image Display -->
 <div id="fullscreenImage" onclick="hideFullscreenImage()">
     <img id="fullscreenImageContent" src="" alt="Fullscreen Activity">
 </div>
 
-<!-- Bootstrap JS and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>
-    // JavaScript for fullscreen image display
     function showFullscreenImage(image) {
         const fullscreenContainer = document.getElementById('fullscreenImage');
         const fullscreenImage = document.getElementById('fullscreenImageContent');
@@ -105,6 +102,8 @@
         document.getElementById('fullscreenImage').style.display = 'none';
     }
 </script>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
