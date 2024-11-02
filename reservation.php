@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation - DBZ Resort</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
     <style>
         body { font-family: Arial, sans-serif; }
-        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; }
-        .form-group { margin-bottom: 15px; }
-        .form-group label { display: block; margin-bottom: 5px; }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 8px; }
+        .container { max-width: 100%; margin: auto; padding: 10px;}
+        .form-group { display: flex; align-items: center; margin-bottom: 15px; }
+        .form-group label { width: 150px; margin-right: 10px; }
+        .form-group input, .form-group select, .form-group textarea { flex: 1; padding: 8px; }
         .form-group button { width: 100%; padding: 10px; font-size: 16px; }
         .result { background: #f9f9f9; padding: 15px; margin-top: 20px; border: 1px solid #ccc; }
     </style>
@@ -33,7 +34,7 @@
     </nav>
     <div class="container mt-5">
         <h2>Make a Reservation</h2>
-        <form action="reservation.php" method="post">
+        <form action="resv-resp.php" method="post">
         <div class="form-group">
             <label for="firstName">First Name:</label>
             <input type="text" id="firstName" name="firstName" required autofocus>
@@ -108,15 +109,6 @@
         </div>
     </form>
 
-        <?php
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $roomType = $_POST['roomType'];
-            $nights = $_POST['nights'];
-            $roomRate = $roomType == 'King' ? 200 : ($roomType == 'Queen' ? 150 : 300);
-            $totalCost = $roomRate * $nights * 1.07;
-            echo "<div class='mt-3 alert alert-success'>Total cost for your stay: $" . number_format($totalCost, 2) . "</div>";
-        }
-        ?>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
