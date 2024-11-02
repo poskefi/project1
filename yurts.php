@@ -28,21 +28,15 @@
     </nav>
 
     <div class="container mt-5 text-left">
-        <h1 class="text-center">DBZ Resort</h1>
-        <p class="text-weight-bold">DBZ Resort offers a special lodging experience on the Connecticut Eastern Coast. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
-        <ul>
-            <li>Private yurts with decks overlooking the ocean</li>
-            <li>Activities lodge with fireplace and gift shop</li>
-            <li>Nightly fine dining at the Overlook Cafe</li>
-            <li>Heated outdoor pool and whirlpool</li>
-            <li>Guided hiking tours of the redwoods</li>
-        </ul>
-        <p>
-            DBZ Resort<br>
-            One Normal Ave, Montclair<br>
-            Connecticut 06516<br>
-            973-655-4166
-        </p>
+        <h1 class="text-left">The Yurts at Pacific Trails</h1>
+        <h5>What is a yurt?</h5>
+        <p>Our luxury yurts are permanent structures four feet of the gournd. Each yurts has canvas walls, a wooden floor, and a roof dome that can be opened.</p>
+        <br>
+        <h5>How are the yurts finished?</h5>
+        <p>Each yurt is furnished with a queen-size bed with down quilt and gas-fired stove. The luxury camping experience also includes electricity and a sink with hot and cold running water. Shower and restroom facilities are located in the lodge</p>
+        <br>
+        <h5>What should I bring?</h5>
+        <p>Bring a sense of adventure and some time to relax! Most guests also pack comfortable walking shoes and plan to dress for changing weather with layers of clothing</p>
     </div>
 
     <footer class="bg-dark text-white text-center p-3 mt-5">
