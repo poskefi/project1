@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Additional styling for fullscreen image display */
         #fullscreenImage {
             position: fixed;
             top: 0;
@@ -52,24 +50,36 @@
         <!-- Activity 1 -->
         <div class="col-12 col-md-6 mb-4">
             <div class="card">
-                <img src="path/to/hiking.jpg" class="card-img-top activity-image" alt="Hiking" onclick="showFullscreenImage(this)">
+                <img src="./img/top.jpg" class="card-img-top activity-image" alt="View of the Arena" onclick="showFullscreenImage(this)">
                 <div class="card-body">
-                    <h5 class="card-title">Hiking</h5>
-                    <p class="card-text">Enjoy scenic hikes through nature trails.</p>
                 </div>
             </div>
         </div>
         <!-- Activity 2 -->
         <div class="col-12 col-md-6 mb-4">
             <div class="card">
-                <img src="./img/goku.jpg" class="card-img-top activity-image" alt="Pool" onclick="showFullscreenImage(this)">
+                <img src="./img/goku.jpg" class="card-img-top activity-image" alt="View of Goku" onclick="showFullscreenImage(this)">
                 <div class="card-body">
-                    <h5 class="card-title">Pool</h5>
-                    <p class="card-text">Relax by the pool or take a refreshing swim.</p>
                 </div>
             </div>
         </div>
-        <!-- Add more activities as needed -->
+        <!-- Activity 3-->
+        <div class="col-12 col-md-6 mb-4">
+            <div class="card">
+                <img src="./img/cell.jpg" class="card-img-top activity-image" alt="View of Cell" onclick="showFullscreenImage(this)">
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+        <!-- Activity 4 -->
+        <div class="col-12 col-md-6 mb-4">
+            <div class="card">
+                <img src="./img/buu.jpg" class="card-img-top activity-image" alt="View of Buu" onclick="showFullscreenImage(this)">
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+         
     </div>
 </div>
 
