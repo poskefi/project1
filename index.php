@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DBZ Resort</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
@@ -27,10 +27,10 @@
         </div>
     </nav>
 
-    <div class="container mt-5 text-center">
-        <h1>DBZ Resort</h1>
-        <p>DBZ Resort offers a special lodging experience on the Connecticut Eastern Coast. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
-        <ul class="list-unstyled">
+    <div class="container mt-5 text-left">
+        <h1 class="text-center">DBZ Resort</h1>
+        <p class="text-weight-bold">DBZ Resort offers a special lodging experience on the Connecticut Eastern Coast. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
+        <ul>
             <li>Private yurts with decks overlooking the ocean</li>
             <li>Activities lodge with fireplace and gift shop</li>
             <li>Nightly fine dining at the Overlook Cafe</li>

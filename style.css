@@ -1,19 +1,18 @@
-/* styles.css */
-
-/* Green navbar background color */
 .bg-green {
-    background-color: #28a745; /* Bootstrap green */
+    background-color: #28a745;
 }
 
-/* Navbar link styling */
 .nav-link {
-    font-weight: bold;
-    color: white !important;
+    size: 1px;
+    color: lightgray !important;
 }
 
-/* Footer styling */
 footer {
-    background-color: #343a40; /* Dark gray */
+    background-color: #343a40;
     color: white;
     padding: 20px 0;
 }
+
+.navbar-collapse {
+    text-align: center;
+  }
