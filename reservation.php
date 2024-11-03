@@ -104,7 +104,12 @@
         </div>
         
         <div class="form-group">
-            <button type="submit">Submit Reservation</button>
+            <div class="btn-group">
+                <button type="submit" class="btn btn-primary mr-2">Reserve a Room</button>
+            </div>
+            <div class="btn-group">
+                <button type="reset" class="btn btn-success mr-2">Clear</button>
+            </div>
         </div>
     </form>
 

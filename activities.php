@@ -15,7 +15,7 @@
             display: none;
             justify-content: center;
             align-items: center;
-            background: rgba(0, 0, 0, 0.8);
+            background: black;
             z-index: 1000;
         }
         #fullscreenImage img {
